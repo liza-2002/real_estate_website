@@ -8,13 +8,15 @@
   
   .background-image {
     position: absolute;
+    background-image: url('../../assets/home/back1.jpg');
     top: 0;
     left: 0;
-    width:1520px;
-    height: 450px;
+    width: 100%;
+    height: 500px;
     background-size: cover;
     background-position: center;
     filter: brightness(0.5);
+    border-radius: 10px;
   }
   
   .heading {
@@ -59,8 +61,8 @@
   .search-bar {
     position: relative;
     z-index: 1; 
-    width: 500px;
-    height: 50px;
+    width: 35%;
+    height: 55px;
     margin:20px auto;
     display: flex;
     justify-content: center; 
@@ -88,3 +90,22 @@
     color: var(--white);
   }
   
+  @media screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px; 
+    }
+
+    .background-image {
+      height: 400px;
+    }
+
+    .heading {
+      padding: 60px 0 40px 0;
+        font-size: 2rem;
+    }
+
+    .search-bar {
+      width: 90%;
+    }
+
+}
