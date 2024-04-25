@@ -1,11 +1,10 @@
 import React from 'react';
 import './Intro.css'; 
-import backgroundImage from '../../assets/home/back1.jpg';
 
 const Intro = () => {
   return (
     <div className="container">
-      <div className="background-image" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
+      <div className="background-image"></div>
 
       <h1 className="heading">Discover a place
         <br />you'll love to live</h1>
