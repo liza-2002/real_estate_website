@@ -1,0 +1,124 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    
+  }
+.heading{
+    text-align: center;
+    color: var(--primary);
+    font-size: 2.3rem;
+}
+.para{
+    text-align: center;
+    color: var(--primary);
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+}
+
+
+.inside-container {
+    position: relative;
+    display: flex;
+}
+.card { 
+    position: relative;
+}
+.card1 {
+    height: 400px; 
+    width: 280px; 
+    margin-right: 20px;
+    /* position: relative; */
+}
+
+.card1 .background-image{
+    position: absolute;
+    background-image: url('../../assets/home/back1.jpg');
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    filter: brightness(0.7);
+    padding: 16px;
+    overflow: hidden;
+    background-size: 280%;
+    transition: background-size 0.3s ease-in-out;
+}
+.card1 .btn{
+    position: relative;
+    height: 32px;
+    width: 132px;
+    margin: 95px 20px;
+    background-color: rgba(255, 255, 255, 0.633);
+    border-radius: 5px;
+    display: flex;
+}
+.card1 .sub-heading{
+    position: relative;
+    height: 248px;
+    width: 31px;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 20px;   
+}
+.second-container{
+    width: 280px;
+    height: 400px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.card2 .background-image{
+    position: absolute;
+    background-image: url('../../assets/home/back1.jpg');
+    width: 280px;
+    height: 192px;
+    border-radius: 10px;
+    filter: brightness(0.7);
+    padding: 16px;
+    background-size: 280%;
+    transition: background-size 0.3s ease-in-out;
+}
+.card2 .btn{
+    position: relative;
+    height: 32px;
+    width: 132px;
+    margin: 24px 20px;
+    background-color: rgba(255, 255, 255, 0.633);
+    border-radius: 5px;
+    display: flex;
+}
+.card2 .sub-heading{
+    position: relative;
+    height: 128px;
+    width: 128px;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 10px;   
+    margin: 0;
+}
+
+
+.card-btn{
+    position: relative;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: var(--primary);   
+}
+.arrow-icon{
+    position: relative;
+    padding: 0 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--primary);   
+}
+.card .background-image:hover {
+    background-size: 320%; /* Increase the size of the background image on hover */
+}
