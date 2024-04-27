@@ -1,0 +1,34 @@
+.flex_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbars{
+    background: rgb(79,228,102);
+background: linear-gradient(180deg, rgba(79,228,102,1) 0%, rgba(0,124,19,1) 100%);
+}
+#logo_img{
+    width: 200px;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color:black;
+}
+
+.responsive{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .responsive{
+        display: block;
+    }
+    .regular{
+        display: none;
+    }
+}

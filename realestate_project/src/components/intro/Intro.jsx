@@ -4,9 +4,9 @@ import './Intro.css';
 const Intro = () => {
   return (
     <div className="container">
-      <div className="background-image"></div>
+      <div className="background-img"></div>
 
-      <h1 className="heading">Discover a place
+      <h1 className="intro-heading">Discover a place
         <br />you'll love to live</h1>
      
       <div className="intro_button">
